@@ -41,7 +41,7 @@ task gruntTest(type: Exec) {
   if (Os.isFamily(Os.FAMILY_WINDOWS)) {
     commandLine 'cmd', '/c', 'grunt', 'test'
   } else {
-    commandLine 'grunt', 'test'
+    commandLine 'grunt', 'test', '--force'
   }
 
 }
