@@ -1,0 +1,10 @@
+devops_task-postgresql:
+  container_name: devops_task-postgresql
+  image: postgres:9.4.5
+  # volumes:
+  #   - ~/volumes/jhipster/devops_task/postgresql/:/var/lib/postgresql/
+  environment:
+    - POSTGRES_USER=devops_task
+    - POSTGRES_PASSWORD=
+  ports:
+    - "5432:5432"

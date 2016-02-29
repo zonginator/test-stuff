@@ -1,0 +1,25 @@
+{
+  "generator-jhipster": {
+    "baseName": "devops_task",
+    "packageName": "com.mycompany.myapp",
+    "packageFolder": "com/mycompany/myapp",
+    "authenticationType": "session",
+    "hibernateCache": "no",
+    "clusteredHttpSession": "no",
+    "websocket": "no",
+    "databaseType": "sql",
+    "devDatabaseType": "h2Memory",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": "no",
+    "useSass": false,
+    "buildTool": "gradle",
+    "frontendBuilder": "grunt",
+    "enableTranslation": false,
+    "enableSocialSignIn": false,
+    "rememberMeKey": "599d6e7c3de40b1240d32cc4b0ce0dc9969410a3",
+    "testFrameworks": [
+      "gatling",
+      "protractor"
+    ]
+  }
+}
