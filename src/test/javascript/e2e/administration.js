@@ -30,12 +30,12 @@ describe('administration', function () {
 
     it('should load health', function () {
         element(by.css('[ui-sref="health"]')).click();
-        expect(element.all(by.css('h2')).first().getText()).toMatch(/Health checks/);
+        expect(element.all(by.css('h2')).first().getText()).toMatch(/Health Checks/);
     });
 
     it('should load configuration', function () {
         element(by.css('[ui-sref="configuration"]')).click();
-        expect(element.all(by.css('h2')).first().getText()).toMatch(/Configuration/);
+        expect(element.all(by.css('h2')).first().getText()).toMatch(/configuration/);
     });
 
     it('should load audits', function () {
